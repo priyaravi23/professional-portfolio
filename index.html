@@ -14,7 +14,7 @@
 <body>
 <header>
     <h1>
-        <a href="/portfolio">
+        <a href="/professional-portfolio">
             <div class="portfolio-div">
                 Portfolio
             </div>
@@ -31,15 +31,12 @@
             <li>
                 <a href="#contact">Contact Me</a>
             </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
         </ul>
     </nav>
 </header>
 
 <section id="particles-js">
-    <div class="portfolio-div flex-center-bottom">
+    <div class="hero-div flex-center-bottom">
         <p>
             Hello, I'm <span class="name">Priya Ravi</span>
         </p>
@@ -56,22 +53,76 @@
 
     <div class="info">
         <p>
-            Software Engineer with a demonstrated history of working on production web and mobile applications. Deep understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, CSS, HTML and other frontend technologies
+            Software Engineer with a demonstrated history of working on production web and mobile applications. Deep
+            understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, NodeJS, MongoDB CSS,
+            HTML and other frontend technologies.
         </p>
     </div>
 </section>
 
-<section id="work">
+<section id="work" class="details">
     <div class="text">
         Work
     </div>
+
+    <div class="grid-container">
+        <div class="grid-item box1">
+            <a href='https://react-todo-cypress.herokuapp.com/' target="_blank">
+                <img src="assets/images/task-tracker.png" alt="Task Tracker App"/>
+                <div class="desc">
+                    <h3>Task Tracker</h3>
+                    <p>React/Cypress</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="grid-item box2">
+            <a href='https://weather-detector-app.herokuapp.com/'  target="_blank">
+                <img src="assets/images/weather-scanner.png" alt="Weather Scanner App"/>
+                <div class="desc">
+                    <h3>Weather Scanner</h3>
+                    <p>React/Node/REST APIs</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="grid-item box3">
+            <a href='https://infinity-rental.herokuapp.com/'  target="_blank">
+                <img src="assets/images/movie-rental.png" alt="Movie Rental App"/>
+                <div class="desc">
+                    <h3>Movie Rentals</h3>
+                    <p>MERN Stack</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="grid-item box4">
+            <a href='https://react-voltron-app.herokuapp.com/'  target="_blank">
+                <img src="assets/images/voltron.png" alt="Voltron App"/>
+                <div class="desc">
+                    <h3>Voltron</h3>
+                    <p>React/Redux/Local Storage/Cypress/Jest/Enzyme</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="grid-item box5">
+            <a href='https://priyaravi23.github.io/run-buddy/'  target="_blank">
+                <img src="assets/images/run-buddy.png" alt="Run Buddy"/>
+                <div class="desc">
+                    <h3>Run Buddy</h3>
+                    <p>HTML/CSS</p>
+                </div>
+            </a>
+        </div>
+    </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="details">
     <div class="text">
         Contact Me
     </div>
-    <nav>
+    <nav class="info">
         <ul>
             <li>
                 555.555.5555
@@ -87,12 +138,6 @@
             </li>
         </ul>
     </nav>
-</section>
-
-<section id="resume">
-    <div class="text">
-        Resume
-    </div>
 </section>
 
 <script src="index.js"></script>

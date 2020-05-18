@@ -1,5 +1,19 @@
 ## Professional Portfolio
 
+### Application Deployed To GitHub Pages 
+
+https://priyaravi23.github.io/professional-portfolio/
+
+### Description 
+
+Portfolio showcasing various apps created using different web technologies 
+- ReactJS
+- NodeJS 
+- MongoDB 
+- Javascript
+- CSS 
+- HTML
+
 ### User Story 
 
 ```text
