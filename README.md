@@ -4,15 +4,12 @@
 
 https://priyaravi23.github.io/professional-portfolio/
 
+> A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it.
+
 ### Description 
 
-Portfolio showcasing various apps created using different web technologies 
-- ReactJS
-- NodeJS 
-- MongoDB 
-- Javascript
-- CSS 
-- HTML
+*Implement a website using CSS Grid, Flexbox & Web Accessibility Standards that resembles the provided mock-up.*
+
 
 ### User Story 
 
