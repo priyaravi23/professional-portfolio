@@ -20,7 +20,7 @@
             </div>
         </a>
     </h1>
-    <nav>
+    <nav class="menu-bar" id="menu">
         <ul>
             <li>
                 <a href="#about">About Me</a>
@@ -33,7 +33,22 @@
             </li>
         </ul>
     </nav>
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
 </header>
+
+<script>
+    function toggleMenu() {
+        var x = document.getElementById("menu");
+        if (x.className === "menu-bar") {
+            x.className += " responsive";
+        } else {
+            x.className = "menu-bar";
+        }
+    }
+</script>
 
 <section id="particles-js">
     <div>
@@ -112,6 +127,16 @@
                     <div class="desc">
                         <h3>Voltron</h3>
                         <p>React/Redux/Local Storage/Cypress/Jest</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item gallery__item--6">
+                <a href='https://priyaravi23.github.io/taskinator/'  target="_blank">
+                    <img src="assets/images/taskinator.png" alt="Taskinator App" class="gallery__img"/>
+                    <div class="desc">
+                        <h3>Taskinator</h3>
+                        <p>Web APIs/Local Storage</p>
                     </div>
                 </a>
             </div>
