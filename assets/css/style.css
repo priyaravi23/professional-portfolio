@@ -141,7 +141,7 @@ nav ul li a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 120px);
     grid-gap: 10px;
     flex: 2 60%;
@@ -181,6 +181,11 @@ nav ul li a:hover {
 .gallery__item--6 {
     grid-column: 3/3;
     grid-row: 3/ span 1;
+}
+
+.gallery__item--7 {
+    grid-column: 4/ span 1;
+    grid-row: 1/ span 1;
 }
 
 .gallery__img {
@@ -288,6 +293,11 @@ nav ul li a:hover {
 
     .gallery__item--6 {
         grid-column: 1/2;
+        grid-row: 4/ span 1;
+    }
+
+    .gallery__item--7 {
+        grid-column: 2/2;
         grid-row: 4/ span 1;
     }
 
